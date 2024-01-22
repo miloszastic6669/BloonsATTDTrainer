@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
+BloonsATTDTrainer.vcxproj
 /vendor/ImGui/docs/BACKENDS.md
 /vendor/ImGui/docs/CHANGELOG.txt
 /vendor/ImGui/docs/CONTRIBUTING.md
