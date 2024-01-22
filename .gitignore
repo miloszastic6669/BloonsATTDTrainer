@@ -30,10 +30,8 @@
 *.exe
 *.out
 *.app
-BloonsATTDTrainer.vcxproj.filters
 BloonsATTDTrainer.vcxproj
 .gitattributes
-.gitignore
 /vendor/ImGui/docs/BACKENDS.md
 /vendor/ImGui/docs/CHANGELOG.txt
 /vendor/ImGui/docs/CONTRIBUTING.md
@@ -42,3 +40,4 @@ BloonsATTDTrainer.vcxproj
 /vendor/ImGui/docs/FONTS.md
 /vendor/ImGui/docs/README.md
 /vendor/ImGui/docs/TODO.txt
+/x64/Release

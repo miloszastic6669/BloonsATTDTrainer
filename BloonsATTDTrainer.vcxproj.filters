@@ -19,46 +19,43 @@
     <Filter Include="offsets">
       <UniqueIdentifier>{538eaba0-081a-4e62-a633-0a765e7b5a8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{87b6a5da-d38c-47af-a849-80a9bd9256ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BloonsATTDTrainer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="proc.cpp">
       <Filter>proc</Filter>
     </ClCompile>
     <ClCompile Include="offsets.cpp">
       <Filter>offsets</Filter>
     </ClCompile>
-    <ClCompile Include="vendor\ImGui\imgui.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vendor\ImGui\imgui_demo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vendor\ImGui\imgui_draw.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vendor\ImGui\imgui_tables.cpp">
+    <ClCompile Include="BloonsATTDTrainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vendor\ImGui\imgui_widgets.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="vendor\ImGui\backends\imgui_impl_win32.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="vendor\ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
     </ClCompile>
     <ClCompile Include="vendor\ImGui\backends\imgui_impl_dx9.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
     </ClCompile>
     <ClCompile Include="vendor\ImGui\misc\cpp\imgui_stdlib.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="vendor\ImGui\misc\fonts\binary_to_compressed_c.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vendor\ImGui\misc\freetype\imgui_freetype.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="vendor\ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -69,37 +66,37 @@
       <Filter>offsets</Filter>
     </ClInclude>
     <ClInclude Include="vendor\ImGui\imconfig.h">
-      <Filter>Header Files</Filter>
+      <Filter>ImGui</Filter>
     </ClInclude>
     <ClInclude Include="vendor\ImGui\imgui.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\imgui_internal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\imstb_rectpack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\imstb_textedit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\imstb_truetype.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\backends\imgui_impl_win32.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\backends\imgui_impl_dx9.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vendor\ImGui\misc\cpp\imgui_stdlib.h">
-      <Filter>Header Files</Filter>
+      <Filter>ImGui</Filter>
     </ClInclude>
     <ClInclude Include="vendor\ImGui\misc\freetype\imgui_freetype.h">
-      <Filter>Header Files</Filter>
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\backends\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\backends\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
     </ClInclude>
     <ClInclude Include="vendor\ImGui\misc\single_file\imgui_single_file.h">
-      <Filter>Header Files</Filter>
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
