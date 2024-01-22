@@ -1,43 +1,31 @@
-# Prerequisites
-*.d
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-BloonsATTDTrainer.vcxproj
-.gitattributes
-/vendor/ImGui/docs/BACKENDS.md
-/vendor/ImGui/docs/CHANGELOG.txt
-/vendor/ImGui/docs/CONTRIBUTING.md
-/vendor/ImGui/docs/EXAMPLES.md
-/vendor/ImGui/docs/FAQ.md
-/vendor/ImGui/docs/FONTS.md
-/vendor/ImGui/docs/README.md
-/vendor/ImGui/docs/TODO.txt
-/x64/Release
+/BloonsATTDTrainer.vcxproj
+/x64/Release/binary_to_compressed_c.obj
+/x64/Release/BloonsATTDTrainer.exe.recipe
+/x64/Release/BloonsATTDTrainer.iobj
+/x64/Release/BloonsATTDTrainer.ipdb
+/x64/Release/BloonsATTDTrainer.log
+/x64/Release/BloonsATTDTrainer.obj
+/x64/Release/imgui.obj
+/x64/Release/imgui_demo.obj
+/x64/Release/imgui_draw.obj
+/x64/Release/imgui_impl_dx9.obj
+/x64/Release/imgui_impl_win32.obj
+/x64/Release/imgui_stdlib.obj
+/x64/Release/imgui_tables.obj
+/x64/Release/imgui_widgets.obj
+/x64/Release/offsets.obj
+/x64/Release/proc.obj
+/x64/Release/vc143.pdb
+/x64/Release/BloonsAT.fc2e88bd.tlog/BloonsATTDTrainer.lastbuildstate
+/x64/Release/BloonsAT.fc2e88bd.tlog/CL.command.1.tlog
+/x64/Release/BloonsAT.fc2e88bd.tlog/Cl.items.tlog
+/x64/Release/BloonsAT.fc2e88bd.tlog/CL.read.1.tlog
+/x64/Release/BloonsAT.fc2e88bd.tlog/CL.write.1.tlog
+/x64/Release/BloonsAT.fc2e88bd.tlog/link.command.1.tlog
+/x64/Release/BloonsAT.fc2e88bd.tlog/link.read.1.tlog
+/x64/Release/BloonsAT.fc2e88bd.tlog/link.write.1.tlog
