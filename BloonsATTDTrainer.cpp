@@ -246,6 +246,7 @@ int main()
       }
       
       bool lastEssenceHack = essenceHack;
+
       ImGui::Checkbox("Cosmic essence hack", &essenceHack);
       if (lastEssenceHack != essenceHack)
       {
